@@ -17,7 +17,7 @@ export default {
         });
     },
     getFakeUserData(id, username){
-        return {id: id || 1, username: username || 'Shlomi Sasson', toString(){
+        return {id: id || 1, username: username || 'Jhon Doe', toString(){
             return 'id: '+this.id+', name: '+this.username;
         }}
     },
